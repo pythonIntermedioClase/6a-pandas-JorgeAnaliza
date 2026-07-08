@@ -67,6 +67,9 @@ def mostrar_menu():
     print("=" * 45)
     return input("  Opción: ").strip()
 
+def probar_acceso_serie():
+    serie = pd.Series([100, 200, 300])
+    print(serie[0])
 
 # =============================================================================
 # PIPELINE
@@ -144,6 +147,8 @@ def main():
 # PUNTO DE ENTRADA
 # =============================================================================
 
+
 if __name__ == "__main__":
+    #probar_acceso_serie()
     main()
 
